@@ -1,0 +1,250 @@
+[
+    {
+        "id": 0,
+        "cd_name": "  ",
+        "image_url": "",
+        "cd_page_url": ""
+    },
+    {
+        "id": 1,
+        "cd_name": "Hovhaness - Alder String Quartet",
+        "viv_no": "VIV 8806",
+        "description": "The Alder String Quartet plays Alan Hovhaness",
+        "image_url": "img/albums/HovhanessCvrCorr.png",
+        "itunes": "https://itunes.apple.com/us/album/hovhaness-chamber-music/id1071913453",
+        "buy_link": "http://ww9.aitsafe.com/cf/add.cfm?userid=B195497&product=HOVHANESS+-+Alder+String+Quartet&price=14.99",
+        "cast": [
+            {
+                "name": "Susan Baer",
+                "role": "violin"
+            },
+            {
+                "name": "Stephen Cresswell",
+                "role": "violin"
+            },
+            {
+                "name": "Roxanna Patterson",
+                "role": "viola "
+            },
+            {
+                "name": "Buell Neidlinger",
+                "role": "cello"
+            },
+            {
+                "name": "Sheila Weidendorf",
+                "role": "piano"
+            }
+        ],
+        "tracks": [
+            {
+                "id": 1,
+                "name": "FOUR BAGATELLES Op.30 - Andante",
+                "artist": ""
+            },
+            {
+                "id": 2,
+                "name": "Allegro Molto",
+                "artist": ""
+            },
+            {
+                "id": 3,
+                "name": "Andante",
+                "artist": ""
+            },
+            {
+                "id": 4,
+                "name": "Andante; Allegro; Allegretto",
+                "artist": ""
+            },
+            {
+                "id": 5,
+                "name": "STRING QUARTET No.4 'Under the Ancient Maple Tree' Op.208 #2 Adagio ma non troppo",
+                "artist": "Green-Heyman"
+            },
+            {
+                "id": 6,
+                "name": "Fugue",
+                "artist": ""
+            },
+            {
+                "id": 7,
+                "name": "Adagio; Andante con moto; Allegro",
+                "artist": ""
+            },
+            {
+                "id": 8,
+                "name": "SONATA FOR VIOLONCELLO AND PIANO Op.255 -Andante espressivo",
+                "artist": ""
+            },
+            {
+                "id": 9,
+                "name": "Grazioso",
+                "artist": ""
+            },
+            {
+                "id": 10,
+                "name": "Prayer",
+                "artist": ""
+            },
+            {
+                "id": 11,
+                "name": "TRIO Op.3 Dedicated to Jean Sibelius - Allegro moderato",
+                "artist": ""
+            },
+            {
+                "id": 12,
+                "name": "Adagio espressivo con doppio canone",
+                "artist": ""
+            },
+            {
+                "id": 13,
+                "name": "Fuga",
+                "artist": ""
+            }
+        ],
+        "reviews": [
+            {
+                "id": 1,
+                "by": "",
+                "text": ""
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "cd_name": "Robert Ceely - So Far",
+        "image_url": "img/albums/SoFarCover500.jpg",
+        "itunes": "https://itunes.apple.com/us/album/robert-ceely-so-far/id958617835",
+        "description": "The composer's works from 1992-2013, most recorded live at Jordan Hall in Boston, include pieces for chamber chorus, brass quintet, piano, songs for soprano and piano, solo bass clarinet and big band.",
+        "buy_link": "http://ww9.aitsafe.com/cf/add.cfm?userid=B195497&product=Robert+Ceely+-+SO+FAR&price=14.99",
+        "viv_no": "VIVACE 8805",
+        "cast": [
+            {
+                "name": "Marty Krystall",
+                "role": "bass clarinet"
+            },
+            {
+                "name": "Shen Wen",
+                "role": "piano"
+            },
+            {
+                "name": "Alexander Pope",
+                "role": ""
+            },
+            {
+                "name": "William Blake",
+                "role": ""
+            },
+            {
+                "name": "Wordsworth",
+                "role": ""
+            },
+            {
+                "name": "Emily Bronte",
+                "role": ""
+            },
+            {
+                "name": "Jen Ashe",
+                "role": "soprano"
+            }
+        ],
+        "tracks": [
+            {
+                "id": 1,
+                "name": "OH ONE TO FIVE"
+            },
+            {
+                "id": 2,
+                "name": "POST HOC, ERGO PROPTER HOC"
+            },
+            {
+                "id": 3,
+                "name": "EXTENSIONS"
+            },
+            {
+                "id": 4,
+                "name": "FIVE CONTEMPLATIVE SONGS FOR CHAMBER CHORU On Solitude by Alexander Pope"
+            },
+            {
+                "id": 5,
+                "name": " Eternity"
+            },
+            {
+                "id": 6,
+                "name": "My Heart Leaps Up When I Behold"
+            },
+            {
+                "id": 7,
+                "name": "Fall Leaves"
+            },
+            {
+                "id": 8,
+                "name": "Age by Walter"
+            },
+            {
+                "id": 9,
+                "name": "ONTOGENY"
+            },
+            {
+                "id": 10,
+                "name": "To be in any form, what is that?"
+            },
+            {
+                "id": 11,
+                "name": "A gigantic beauty"
+            },
+            {
+                "id": 12,
+                "name": "All truths wait in all things"
+            },
+            {
+                "id": 13,
+                "name": "Space and time"
+            },
+            {
+                "id": 14,
+                "name": "Dazzling and tremendous"
+            },
+            {
+                "id": 15,
+                "name": "REMEMBERING GEORGE"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "cd_name": "ARTHUR GLEGHORN - The Art of Gleghorn",
+        "image_url": "img/albums/ArthurCover494.jpg",
+        "itunes": "https://itunes.apple.com/us/album/arthur-gleghorn-art-gleghorn/id815792227",
+        "description": "This legendary musician, formerly a member of the Royal Philharmonic under Thomas Beecham in the 1930's, moved to Los Angeles in the late '40's.   He joined the MGM staff orchestra as principal flute in 1950 until the staff orchestra contracts ended in 1960, when he free-lanced at MGM and all of the other studio orchestras in Hollywood where he was first flute on most movies and record dates until he retired in 1973. <br/> Now, for the first time he is featured in recital and orchestral excerpts from the 1950's and '60's from private recordings.",
+        "buy_link": "http://ww9.aitsafe.com/cf/add.cfm?userid=B195497&product=Thelonious+LP&price=19.99",
+        "viv_no": "VIV 8804",
+        "cast": [
+            {
+                "name": "Arthur Gleghorn",
+                "role": "flute "
+            }
+        ],
+        "tracks": [
+            {
+                "id": 1,
+                "name": "Grigoaras Dinicu:  Hora Staccato"
+            },
+            {
+                "id": 2,
+                "name": "Claude Debussy:  Syrinx"
+            },
+            {
+                "id": 3,
+                "name": "Arthur Gleghorn:  Art's Collage"
+            }
+        ],
+        "reviews": [
+            {
+                "id": 1,
+                "by": "",
+                "text": ""
+            }
+        ]
+    }
+]    
