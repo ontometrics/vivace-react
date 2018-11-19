@@ -1,0 +1,652 @@
+[
+    {
+        "id": 0,
+        "cd_name": "  ",
+        "image_url": "",
+        "cd_page_url": ""
+    },
+    {
+        "id": 1,
+        "cd_name": "Hovhaness - Alder String Quartet",
+        "viv_no": "VIV 8806",
+        "description": "The Alder String Quartet plays Alan Hovhaness",
+        "image_url": "img/albums/HovhanessCvrCorr.png",
+        "itunes": "https://itunes.apple.com/us/album/hovhaness-chamber-music/id1071913453",
+        "buy_link": "http://ww9.aitsafe.com/cf/add.cfm?userid=B195497&product=HOVHANESS+-+Alder+String+Quartet&price=14.99",
+        "cast": [
+            {
+                "name": "Susan Baer",
+                "role": "violin"
+            },
+            {
+                "name": "Stephen Cresswell",
+                "role": "violin"
+            },
+            {
+                "name": "Roxanna Patterson",
+                "role": "viola "
+            },
+            {
+                "name": "Buell Neidlinger",
+                "role": "cello"
+            },
+            {
+                "name": "Sheila Weidendorf",
+                "role": "piano"
+            }
+        ],
+        "tracks": [
+            {
+                "id": 1,
+                "name": "FOUR BAGATELLES Op.30 - Andante",
+                "artist": ""
+            },
+            {
+                "id": 2,
+                "name": "Allegro Molto",
+                "artist": ""
+            },
+            {
+                "id": 3,
+                "name": "Andante",
+                "artist": ""
+            },
+            {
+                "id": 4,
+                "name": "Andante; Allegro; Allegretto",
+                "artist": ""
+            },
+            {
+                "id": 5,
+                "name": "STRING QUARTET No.4 'Under the Ancient Maple Tree' Op.208 #2 Adagio ma non troppo",
+                "artist": "Green-Heyman"
+            },
+            {
+                "id": 6,
+                "name": "Fugue",
+                "artist": ""
+            },
+            {
+                "id": 7,
+                "name": "Adagio; Andante con moto; Allegro",
+                "artist": ""
+            },
+            {
+                "id": 8,
+                "name": "SONATA FOR VIOLONCELLO AND PIANO Op.255 -Andante espressivo",
+                "artist": ""
+            },
+            {
+                "id": 9,
+                "name": "Grazioso",
+                "artist": ""
+            },
+            {
+                "id": 10,
+                "name": "Prayer",
+                "artist": ""
+            },
+            {
+                "id": 11,
+                "name": "TRIO Op.3 Dedicated to Jean Sibelius - Allegro moderato",
+                "artist": ""
+            },
+            {
+                "id": 12,
+                "name": "Adagio espressivo con doppio canone",
+                "artist": ""
+            },
+            {
+                "id": 13,
+                "name": "Fuga",
+                "artist": ""
+            }
+        ],
+        "reviews": [
+            {
+                "id": 1,
+                "by": "",
+                "text": ""
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "cd_name": "Robert Ceely - So Far",
+        "image_url": "img/albums/SoFarCover500.jpg",
+        "itunes": "https://itunes.apple.com/us/album/robert-ceely-so-far/id958617835",
+        "description": "The composer's works from 1992-2013, most recorded live at Jordan Hall in Boston, include pieces for chamber chorus, brass quintet, piano, songs for soprano and piano, solo bass clarinet and big band.",
+        "buy_link": "http://ww9.aitsafe.com/cf/add.cfm?userid=B195497&product=Robert+Ceely+-+SO+FAR&price=14.99",
+        "viv_no": "VIVACE 8805",
+        "cast": [
+            {
+                "name": "Marty Krystall",
+                "role": "bass clarinet"
+            },
+            {
+                "name": "Shen Wen",
+                "role": "piano"
+            },
+            {
+                "name": "Alexander Pope",
+                "role": ""
+            },
+            {
+                "name": "William Blake",
+                "role": ""
+            },
+            {
+                "name": "Wordsworth",
+                "role": ""
+            },
+            {
+                "name": "Emily Bronte",
+                "role": ""
+            },
+            {
+                "name": "Jen Ashe",
+                "role": "soprano"
+            }
+        ],
+        "tracks": [
+            {
+                "id": 1,
+                "name": "OH ONE TO FIVE"
+            },
+            {
+                "id": 2,
+                "name": "POST HOC, ERGO PROPTER HOC"
+            },
+            {
+                "id": 3,
+                "name": "EXTENSIONS"
+            },
+            {
+                "id": 4,
+                "name": "FIVE CONTEMPLATIVE SONGS FOR CHAMBER CHORU On Solitude by Alexander Pope"
+            },
+            {
+                "id": 5,
+                "name": " Eternity"
+            },
+            {
+                "id": 6,
+                "name": "My Heart Leaps Up When I Behold"
+            },
+            {
+                "id": 7,
+                "name": "Fall Leaves"
+            },
+            {
+                "id": 8,
+                "name": "Age by Walter"
+            },
+            {
+                "id": 9,
+                "name": "ONTOGENY"
+            },
+            {
+                "id": 10,
+                "name": "To be in any form, what is that?"
+            },
+            {
+                "id": 11,
+                "name": "A gigantic beauty"
+            },
+            {
+                "id": 12,
+                "name": "All truths wait in all things"
+            },
+            {
+                "id": 13,
+                "name": "Space and time"
+            },
+            {
+                "id": 14,
+                "name": "Dazzling and tremendous"
+            },
+            {
+                "id": 15,
+                "name": "REMEMBERING GEORGE"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "cd_name": "ARTHUR GLEGHORN - The Art of Gleghorn",
+        "image_url": "img/albums/ArthurCover494.jpg",
+        "itunes": "https://itunes.apple.com/us/album/arthur-gleghorn-art-gleghorn/id815792227",
+        "description": "This legendary musician, formerly a member of the Royal Philharmonic under Thomas Beecham in the 1930's, moved to Los Angeles in the late '40's.   He joined the MGM staff orchestra as principal flute in 1950 until the staff orchestra contracts ended in 1960, when he free-lanced at MGM and all of the other studio orchestras in Hollywood where he was first flute on most movies and record dates until he retired in 1973. <br/> Now, for the first time he is featured in recital and orchestral excerpts from the 1950's and '60's from private recordings.",
+        "buy_link": "http://ww9.aitsafe.com/cf/add.cfm?userid=B195497&product=Thelonious+LP&price=19.99",
+        "viv_no": "VIV 8804",
+        "cast": [
+            {
+                "name": "Arthur Gleghorn",
+                "role": "flute "
+            }
+        ],
+        "tracks": [
+            {
+                "id": 1,
+                "name": "Grigoaras Dinicu:  Hora Staccato"
+            },
+            {
+                "id": 2,
+                "name": "Claude Debussy:  Syrinx"
+            },
+            {
+                "id": 3,
+                "name": "Arthur Gleghorn:  Art's Collage"
+            }
+        ],
+        "reviews": [
+            {
+                "id": 1,
+                "by": "",
+                "text": ""
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "cd_name": "Buell Neidlinger - Cello Cafe",
+        "image_url": "img/albums/BillyFront500.jpg",
+        "itunes": "https://itunes.apple.com/us/album/arthur-gleghorn-art-gleghorn/id815792227",
+        "description": "Billy the Celloist plays Bach at the local coffee shop - his job. I suggested that he record the Bach Suites at home. A couple of days later this CD arrived of Billy playing Bach and other things. As you can hear for yourselves, it's very interesting and beautiful playing; the phrasing, the rhythmic suppleness and buoyancy, the aliveness and humanness of Billy's playing are meaningful and compelling. And swinging. Reminding me a little, in a way, of Buell Neidlinger's great bass playing, it is like telling a story, sounding improvised on the spot. Thanks, Billy.- Peter Serkin",
+        "buy_link": "http://ww9.aitsafe.com/cf/add.cfm?userid=B195497&product=Buell+Neidlinger+-+CELLO+CAFE&price=14.99",
+        "viv_no": "VIV 8803",
+        "cast": [
+            {
+                "name": "Buell Neidlinger",
+                "role": "Bass "
+            }
+        ],
+        "tracks": [
+            {
+                "id": 1,
+                "name": "A. Honneger: Paduana"
+            },
+            {
+                "id": 2,
+                "name": "D. Gabrielli: Ricercar primo"
+            },
+            {
+                "id": 3,
+                "name": "D. Galli: Tre Gigi"
+            },
+            {
+                "id": 4,
+                "name": "J.S. Bach: Suite 1"
+            },
+            {
+                "id": 5,
+                "name": "J.S. Bach: Suite 5 Courante"
+            },
+            {
+                "id": 6,
+                "name": "J.S. Bach: Suite 2 Sarabande"
+            },
+            {
+                "id": 7,
+                "name": "H. Nichols: Lady Sings The Blues"
+            },
+            {
+                "id": 8,
+                "name": "H. Cowell: Gravely and Vigourously, In memorium JFK"
+            },
+            {
+                "id": 9,
+                "name": "J. Garcia: Ripple"
+            }
+        ],
+        "reviews": [
+            {
+                "id": 1,
+                "by": "",
+                "text": ""
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "cd_name": "Marty Krystall - Peter Serkin",
+        "image_url": "img/albums/8802Cover500.jpg",
+        "itunes": "https://itunes.apple.com/us/album/arthur-gleghorn-art-gleghorn/id815792227",
+        "description": "the players at first flirt with the listener, then cajole him, and, finally, seduce him into living in the musical moment. That is the highest praise I can convey.",
+        "buy_link": "http://ww9.aitsafe.com/cf/add.cfm?userid=B195497&product=Marty+Krystall+-+Peter+Serkin+-+Webern+-+Brahms+-+Three+Improvisations&price=11.99",
+        "viv_no": "VIV 8802",
+        "cast": [
+            {
+                "name": "Marty Krystall",
+                "role": "tenor saxophone"
+            },
+            {
+                "name": "Peter Serkin",
+                "role": "piano"
+            },
+            {
+                "name": "Ida Kavafian",
+                "role": "violin"
+            },
+            {
+                "name": "Richard Stoltzman",
+                "role": "clarinet"
+            },
+            {
+                "name": "Amy Hershberger",
+                "role": "violin"
+            },
+            {
+                "name": "Christine Frank",
+                "role": "violin"
+            },
+            {
+                "name": "Shawn Mann",
+                "role": "viola"
+            },
+            {
+                "name": "Matthew Cooker",
+                "role": "cello"
+            }
+        ],
+        "tracks": [
+            {
+                "id": 1,
+                "name": "Anton Werbern: Quartet Op.22"
+            },
+            {
+                "id": 2,
+                "name": "Three Improvisations For Tenor Saxophone and Piano"
+            },
+            {
+                "id": 3,
+                "name": "Brahms: Clarinet Quintet Op. 115"
+            }
+        ],
+        "reviews": [
+            {
+                "id": 1,
+                "by": "",
+                "text": ""
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "cd_name": "Buell Neidlinger - Basso Profundo",
+        "image_url": "img/albums/BassoCover.jpg",
+        "itunes": "https://itunes.apple.com/us/album/arthur-gleghorn-art-gleghorn/id815792227",
+        "description": "The historic recordings featuring legendary bassist Buell Neidlinger performing the virtuosic compositions of Kagel, Ceely, Rosenman (world premiere recording), Xenakis, and Bussotti in ensembles featuring John Bergamo, Ida Kavafian, Ed Meares, Don Palma, Peter Serkin, Fred Sherry, Stanley Silverman, and Jan Williams.",
+        "buy_link": "http://ww9.aitsafe.com/cf/add.cfm?userid=B195497&product=Buell+Neidlinger+-+BASSO+PROFUNDO&price=11.99",
+        "viv_no": "VIV 8801",
+        "cast": [
+            {
+                "name": "Buell Neidlinger",
+                "role": "Bass"
+            }
+        ],
+        "tracks": [
+            {
+                "id": 1,
+                "name": "Sylvano Bussotti: Basso Sensitivo"
+            },
+            {
+                "id": 2,
+                "name": "Leonard Rosenman: Bass Concerto - Chamber Music IV"
+            },
+            {
+                "id": 3,
+                "name": "Robert Ceely: Hymn for Cello and Bass"
+            },
+            {
+                "id": 4,
+                "name": "Iannis Xenakis: Morsima - Amorsima"
+            },
+            {
+                "id": 5,
+                "name": "Robert Ceely: Logs for Two Double Basses"
+            },
+            {
+                "id": 6,
+                "name": "Mauricio Kagel: Sonant for Guitar, Percussion and Bass"
+            }
+
+        ],
+        "reviews": [
+            {
+                "id": 1,
+                "by": "",
+                "text": ""
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "cd_name": "Erno Neufeld, Echoes and Encores for Violin",
+        "image_url": "img/albums/EchoesCvr.jpg",
+        "itunes": "http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewAlbum?id=263181281&s=143441",
+        "description": "Erno Neufeld, concert master at Universal Studios over two decades, is accompanied by his wife Sylvia, in private recordings from the 1940s and 1950s.",
+        "buy_link": "",
+        "viv_no": "VIV 8402",
+        "cast": [
+            {
+                "name": "Erno Neufeld",
+                "role": "violin"
+            }
+        ],
+        "tracks": [
+            {
+                "id": 1,
+                "name": "Banjo and Finddle"
+            },
+            {
+                "id": 2,
+                "name": "Libeslied"
+            },
+            {
+                "id": 3,
+                "name": "Valse Macabre"
+            },
+            {
+                "id": 4,
+                "name": "Zephyr"
+            },
+            {
+                "id": 5,
+                "name": "In a Quiet Brook"
+            },
+            {
+                "id": 6,
+                "name": "Schoen and Driads"
+            },
+            {
+                "id": 7,
+                "name": "Satyr and Driads"
+            },
+            {
+                "id": 8,
+                "name": "Nocturne in C# minor"
+            },
+            {
+                "id": 9,
+                "name": "Estrelita"
+            },
+            {
+                "id": 10,
+                "name": "Scriabin: Nocturne"
+            },
+            {
+                "id": 11,
+                "name": "La Gitana"
+            },
+            {
+                "id": 12,
+                "name": "Someone To Watch Over me"
+            },
+            {
+                "id": 13,
+                "name": "Always Together"
+            },
+            {
+                "id": 14,
+                "name": "All the Things You Are"
+            },
+            {
+                "id": 15,
+                "name": "The Very Thought of You"
+            },
+            {
+                "id": 16,
+                "name": "My Ideal"
+            },
+            {
+                "id": 17,
+                "name": "Stardust"
+            },
+            {
+                "id": 18,
+                "name": "I'll Remember April"
+            }
+        ],
+        "reviews": [
+            {
+                "id": 1,
+                "by": "",
+                "text": ""
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "cd_name": "Hidden Classics I - Virtuosi di Los Angeles",
+        "image_url": "img/albums/HClasscsCvr1.jpg",
+        "itunes": "",
+        "description": "A treasure trove of lost music by some of the greatest baroque composers - music that has been buried away in the libraries and archives of Europe - forgotten for centuries until today. Directed and produced by Yakov Birman. ",
+        "buy_link": "http://ww9.aitsafe.com/cf/add.cfm?userid=B195497&product=Virtuosi+di+Los+Angeles+-+HIDDEN+CLASSICS+1&price=14.99",
+        "viv_no": "VIV 8801",
+        "cast": [
+            {
+                "name": "Yakov Birman",
+                "role": "harpsichord"
+            },
+            {
+                "name": "Volodarsky",
+                "role": "violin"
+            },
+            {
+                "name": "Vladimir Polymatidy",
+                "role": "violin"
+            },
+            {
+                "name": "Mihail Zinovyev",
+                "role": "violin"
+            },
+            {
+                "name": "Alexander Zhirov",
+                "role": "cello"
+            },
+            {
+                "name": "Norman Ludwin",
+                "role": "bass"
+            },
+            {
+                "name": "Paul Fried",
+                "role": "flue"
+            },
+            {
+                "name": "Stuart Horn",
+                "role": "oboe"
+            },
+            {
+                "name": "Andrew Radford",
+                "role": "bassoon"
+            }
+        ],
+        "tracks": [
+            {
+                "id": 1,
+                "name": "Henry Purcell: Airs for the Theatre Suite - I. March"
+            },
+            {
+                "id": 2,
+                "name": "Henry Purcell: Airs for the Theatre Suite - II. Slow Ayre"
+            },
+            {
+                "id": 3,
+                "name": "Henry Purcell: Airs for the Theatre Suite - III. Dance"
+            },
+            {
+                "id": 4,
+                "name": "Henry Purcell: Airs for the Theatre Suite - IV. Jigg"
+            },
+            {
+                "id": 5,
+                "name": "Henry Purcell: Airs for the Theatre Suite - V. Country Dance"
+            },
+            {
+                "id": 6,
+                "name": "Henry Purcell: Airs for the Theatre Suite - VI. Trumpet Aire"
+            },
+            {
+                "id": 7,
+                "name": "William Boyce: Overture No. 6 in d minor - I. Allegro Assai"
+            },
+            {
+                "id": 8,
+                "name": "William Boyce: Overture No. 6 in d minor - II. Moderato"
+            },
+            {
+                "id": 9,
+                "name": "William Boyce: Overture No. 6 in d minor - III. Spirituoso"
+            },
+            {
+                "id": 10,
+                "name": "Georg Phillip Telemann: Europa"
+            },
+            {
+                "id": 11,
+                "name": "Josef Bodin de Boismortier: Concerto in e minor - I. Allegro"
+            },
+            {
+                "id": 12,
+                "name": "Josef Bodin de Boismortier: Concerto in e minor - II. Adagio"
+            },
+            {
+                "id": 13,
+                "name": "Josef Bodin de Boismortier: Concerto in e minor - III. Allegro"
+            },
+            {
+                "id": 14,
+                "name": "Jean Phippe Rameau: Overture from Dardanus"
+            },
+            {
+                "id": 15,
+                "name": "Jean Phippe Rameau: Chaccone from Dardanus                "
+            },
+            {
+                "id": 16,
+                "name": "Dmitry Bortniansky: Overture"
+            },
+            {
+                "id": 17,
+                "name": "Antonio Vivaldi: Concerto in F Major - I. Allegro"
+            },
+            {
+                "id": 18,
+                "name": "Antonio Vivaldi: Concerto in F Major - II. Largo"
+            },
+            {
+                "id": 19,
+                "name": "Antonio Vivaldi: Concerto in F Major - III. Presto"
+            }
+        ],
+        "reviews": [
+            {
+                "id": 1,
+                "by": "",
+                "text": ""
+            }
+        ]
+    }
+    
+]    
