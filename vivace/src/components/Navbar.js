@@ -1,4 +1,6 @@
-class Welcome extends React.Component {
+import React, { Component } from 'react';
+
+class Navbar extends React.Component {
     render() {
         return (
             <nav class="navbar navbar-light navbar-expand-lg" role="navigation">
@@ -35,3 +37,4 @@ class Welcome extends React.Component {
         );
     }
 }
+export default Navbar
