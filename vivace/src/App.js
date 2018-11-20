@@ -24,7 +24,7 @@ class App extends Component {
       //   </div>
       <div>
         <h1>Test</h1>
-        {Gallery}
+        <Gallery />
       </div>
     );
   }
