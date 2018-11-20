@@ -1,3 +1,5 @@
+import React, { Component } from 'react';
+
 class Navbar extends React.Component {
     render() {
         return (
@@ -35,3 +37,4 @@ class Navbar extends React.Component {
         );
     }
 }
+export default Navbar
