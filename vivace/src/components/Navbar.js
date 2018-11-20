@@ -1,4 +1,4 @@
-class Welcome extends React.Component {
+class Navbar extends React.Component {
     render() {
         return (
             <nav class="navbar navbar-light navbar-expand-lg" role="navigation">
