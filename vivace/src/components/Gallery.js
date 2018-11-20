@@ -1,5 +1,4 @@
-import React from "react";
-
+import React, { Component } from "react";
 class Gallery extends React.Component {
   render() {
     return (
