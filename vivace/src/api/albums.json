@@ -1,10 +1,5 @@
 [
-    {
-        "id": 0,
-        "cd_name": "  ",
-        "image_url": "",
-        "cd_page_url": ""
-    },
+  
     {
         "id": 1,
         "cd_name": "Hovhaness - Alder String Quartet",
@@ -421,7 +416,7 @@
         ]
     },
     {
-        "id": 6,
+        "id": 7,
         "cd_name": "Erno Neufeld, Echoes and Encores for Violin",
         "image_url": "img/albums/EchoesCvr.jpg",
         "itunes": "http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewAlbum?id=263181281&s=143441",
