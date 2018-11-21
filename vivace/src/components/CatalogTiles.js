@@ -10,10 +10,8 @@ class CatalogTiles extends React.Component {
         <a href="portfolio-item.html" className="project">
           <span className="mask">
             <span className="info">
-              <h3>Landscape Trip</h3>
-              <p>Blog About spacial trips</p>
+              <h3>{this.props.data.cd_name}</h3>
             </span>
-            <span className="btn-see-project">See project</span>
           </span>
           <span style={tileStyle} className="pic" />
           {/* <img src={this.props.data.image_url} /> */}
