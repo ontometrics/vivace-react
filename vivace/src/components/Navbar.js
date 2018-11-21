@@ -5,6 +5,9 @@ class Navbar extends React.Component {
   render() {
     return (
       <div>
+        <NavLink className="btn green" to="/homepage">
+          Home
+        </NavLink>
         <NavLink className="btn green" to="/catalog">
           Catalog
         </NavLink>
