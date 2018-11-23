@@ -1,8 +1,18 @@
 import React, { Component } from "react";
 import CatalogTiles from "./CatalogTiles";
+import AlbumModal from "./AlbumModal";
 
 class Catalog extends React.Component {
-  createTiles = () => {};
+  state = {
+    albumModal: true
+  };
+
+  toggleAlbumModal = () => {
+    this.setState({
+      albumModal: !this.state.albumModal
+    });
+  };
+
   render() {
     var data = require("../api/albums.json"); // forward slashes will depend on the file location
     // var pData = JSON.parse(data);
@@ -26,12 +36,19 @@ class Catalog extends React.Component {
                   className="col-md-6 col-lg-4"
                   style={{ border: "black solid 1px" }}
                 >
-                  <CatalogTiles data={data} />
+                  <CatalogTiles
+                    data={data}
+                    toggleAlbumModel={this.toggleAlbumModal}
+                  />
                 </div>
               ))}
             </div>
           </div>
         </div>
+        <AlbumModal
+          albumModal={this.state.albumModal}
+          toggleAlbumModal={this.toggleAlbumModal}
+        />
       </div>
     );
   }
