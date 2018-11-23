@@ -7,7 +7,7 @@ class CatalogTiles extends React.Component {
     };
     return (
       <div>
-        <a href="portfolio-item.html" className="project">
+        <span href="portfolio-item.html" className="project">
           <span className="mask">
             <span className="info">
               <h3>{this.props.data.cd_name}</h3>
@@ -16,7 +16,7 @@ class CatalogTiles extends React.Component {
           <span style={tileStyle} className="pic" />
           {/* <img src={this.props.data.image_url} /> */}
           {/* {console.log(this.props.data.image_url)} */}
-        </a>
+        </span>
       </div>
     );
   }
