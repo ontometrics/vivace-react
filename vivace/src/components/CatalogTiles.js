@@ -17,7 +17,6 @@ class CatalogTiles extends React.Component {
           {/* <img src={this.props.data.image_url} /> */}
           {/* {console.log(this.props.data.image_url)} */}
         </span>
-        <button onClick={this.props.toggleAlbumModal}>test</button>
       </div>
     );
   }

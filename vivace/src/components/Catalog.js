@@ -4,7 +4,7 @@ import AlbumModal from "./AlbumModal";
 
 class Catalog extends React.Component {
   state = {
-    albumModal: true
+    albumModal: false
   };
 
   toggleAlbumModal = () => {
@@ -40,6 +40,9 @@ class Catalog extends React.Component {
                     data={data}
                     toggleAlbumModel={this.toggleAlbumModal}
                   />
+                  <button type="button" onClick={this.toggleAlbumModal}>
+                    test
+                  </button>
                 </div>
               ))}
             </div>
