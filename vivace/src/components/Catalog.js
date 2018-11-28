@@ -1,10 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 import CatalogTiles from "./CatalogTiles";
 import AlbumModal from "./AlbumModal";
 
 class Catalog extends React.Component {
   state = {
-    albumModal: false
+    albumModal: false,
+    modalData: {}
   };
 
   toggleAlbumModal = () => {
@@ -13,20 +14,22 @@ class Catalog extends React.Component {
     });
   };
 
+  setModalData = data => {
+    this.setState(
+      {
+        modalData: data
+      },
+      () => this.toggleAlbumModal()
+    );
+  };
+
   render() {
     var data = require("../api/albums.json"); // forward slashes will depend on the file location
-    // var pData = JSON.parse(data);
-    console.log(data);
-
-    // for(var i = 0; i < data.length; i++) {
-    //   var obj = data[i];
-
-    //   console.log("ID: " + obj.id + ", Album Name" + obj.cd_name);
-    // }
 
     return (
       <div>
         Catalog
+        {console.log(this.state.modalData)}
         <div className="gallery-portfolio">
           <div className="container no-override">
             <div className="row no-gutters">
@@ -38,17 +41,16 @@ class Catalog extends React.Component {
                 >
                   <CatalogTiles
                     data={data}
-                    toggleAlbumModel={this.toggleAlbumModal}
+                    setModalData={data => this.setModalData(data)}
+                    toggleAlbumModal={this.toggleAlbumModal}
                   />
-                  <button type="button" onClick={this.toggleAlbumModal}>
-                    test
-                  </button>
                 </div>
               ))}
             </div>
           </div>
         </div>
         <AlbumModal
+          data={data}
           albumModal={this.state.albumModal}
           toggleAlbumModal={this.toggleAlbumModal}
         />
