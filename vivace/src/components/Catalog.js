@@ -50,7 +50,7 @@ class Catalog extends React.Component {
           </div>
         </div>
         <AlbumModal
-          data={data}
+          modalData={this.state.modalData}
           albumModal={this.state.albumModal}
           toggleAlbumModal={this.toggleAlbumModal}
         />
