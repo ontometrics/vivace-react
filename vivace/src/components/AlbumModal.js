@@ -1,5 +1,14 @@
 import React from "react";
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
+import {
+  Button,
+  Modal,
+  ModalHeader,
+  ModalBody,
+  ModalFooter,
+  UncontrolledCollapse,
+  CardBody,
+  Card
+} from "reactstrap";
 
 class AlbumModal extends React.Component {
   render() {
@@ -22,9 +31,33 @@ class AlbumModal extends React.Component {
                 <img
                   src={this.props.modalData.image_url}
                   style={{ width: "100%" }}
+                  alt="Album Art"
                 />
               </div>
-              <div className="col-md-5">Tracks</div>
+              <div className="col-md-5">
+                <div>
+                  <div>
+                    <Button
+                      color="primary"
+                      id="toggler"
+                      style={{ marginBottom: "1rem" }}
+                    >
+                      Toggle
+                    </Button>
+                    <UncontrolledCollapse toggler="#toggler">
+                      <Card>
+                        <CardBody>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Nesciunt magni, voluptas debitis similique porro
+                          a molestias consequuntur earum odio officiis natus,
+                          amet hic, iste sed dignissimos esse fuga! Minus,
+                          alias.
+                        </CardBody>
+                      </Card>
+                    </UncontrolledCollapse>
+                  </div>
+                </div>
+              </div>
             </div>
           </ModalBody>
           <ModalFooter>
