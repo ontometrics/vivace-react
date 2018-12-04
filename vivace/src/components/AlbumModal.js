@@ -1,7 +1,35 @@
 import React from "react";
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
+import {
+  Button,
+  Modal,
+  ModalHeader,
+  ModalBody,
+  ModalFooter,
+  UncontrolledCollapse,
+  Table,
+  CardBody,
+  Card
+} from "reactstrap";
+import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
 class AlbumModal extends React.Component {
+  state = {
+    castArrowStatus: false,
+    tracksArrowStatus: false
+  };
+
+  toggleTracksArrow = () => {
+    this.setState({
+      tracksArrowStatus: !this.state.tracksArrowStatus
+    });
+  };
+
+  toggleCastArrow = () => {
+    this.setState({
+      castArrowStatus: !this.state.castArrowStatus
+    });
+  };
+
   render() {
     return (
       <div>
@@ -12,18 +40,84 @@ class AlbumModal extends React.Component {
           isOpen={this.props.albumModal}
           toggle={this.props.toggleAlbumModal}
           className={this.props.className}
+          size="lg"
         >
           <ModalHeader toggle={this.props.toggleAlbumModal}>
-            Modal title
+            {this.props.modalData.cd_name}
           </ModalHeader>
           <ModalBody>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            <div className="container-fluid">
+              <div className="row">
+                <div className="col-md-7">
+                  <img
+                    src={this.props.modalData.image_url}
+                    style={{ width: "100%" }}
+                    alt="Album Art"
+                  />
+                </div>
+                <div className="col-md-5">
+                  <div>
+                    <div>
+                      <div id="toggler">
+                        <div onClick={this.toggleTracksArrow}>
+                          Tracks
+                          <span style={{ float: "right" }}>
+                            {this.state.tracksArrowStatus ? (
+                              <IoIosArrowUp />
+                            ) : (
+                              <IoIosArrowDown />
+                            )}
+                          </span>
+                        </div>
+                      </div>
+                      <hr />
+                      <React.Fragment>
+                        <UncontrolledCollapse toggler="#toggler">
+                          {/* {this.props.modalData &&
+                              console.log(this.props.modalData)} */}
+                          {this.props.modalData.tracks && (
+                            <ol>
+                              {this.props.modalData.tracks.map(track => (
+                                <li key={track.id}>{track.name}</li>
+                              ))}
+                            </ol>
+                          )}
+                        </UncontrolledCollapse>
+                      </React.Fragment>
+
+                      <div id="toggler2">
+                        <div onClick={this.toggleCastArrow}>
+                          Cast
+                          <span style={{ float: "right" }}>
+                            {this.state.castArrowStatus ? (
+                              <IoIosArrowUp />
+                            ) : (
+                              <IoIosArrowDown />
+                            )}
+                          </span>
+                        </div>
+                      </div>
+
+                      <React.Fragment>
+                        <UncontrolledCollapse toggler="#toggler2">
+                          {/* {this.props.modalData &&
+                              console.log(this.props.modalData)} */}
+                          {this.props.modalData.cast && (
+                            <ol>
+                              {this.props.modalData.cast.map(cast => (
+                                <li key={cast.name}>
+                                  {cast.name} on {cast.role}
+                                </li>
+                              ))}
+                            </ol>
+                          )}
+                        </UncontrolledCollapse>
+                      </React.Fragment>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </ModalBody>
           <ModalFooter>
             <Button color="primary" onClick={this.props.toggleAlbumModal}>
