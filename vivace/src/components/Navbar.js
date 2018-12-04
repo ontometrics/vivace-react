@@ -5,12 +5,35 @@ class Navbar extends React.Component {
   render() {
     return (
       <div>
-        <NavLink className="btn green" to="/homepage">
-          Home
-        </NavLink>
-        <NavLink className="btn green" to="/catalog">
-          Catalog
-        </NavLink>
+        <nav class="navbar navbar-light navbar-expand-lg" role="navigation">
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <NavLink className="btn green navbar-brand" to="/homepage">
+                  Vivace
+          </NavLink>  
+
+          <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <NavLink className="btn green nav-link" to="/homepage">
+                  Home
+                </NavLink>  
+              </li>
+              <li class="nav-item">
+                <NavLink className="btn green nav-link" to="/catalog">
+                  Catalog
+                </NavLink>  
+              </li>
+              <li class="nav-item">
+                <NavLink className="btn green nav-link nav-link--rounded" to="/artists">
+                  Artists
+                </NavLink>  
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
     );
   }
