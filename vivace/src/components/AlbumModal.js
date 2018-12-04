@@ -6,11 +6,30 @@ import {
   ModalBody,
   ModalFooter,
   UncontrolledCollapse,
+  Table,
   CardBody,
   Card
 } from "reactstrap";
+import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
 class AlbumModal extends React.Component {
+  state = {
+    castArrowStatus: false,
+    tracksArrowStatus: false
+  };
+
+  toggleTracksArrow = () => {
+    this.setState({
+      tracksArrowStatus: !this.state.tracksArrowStatus
+    });
+  };
+
+  toggleCastArrow = () => {
+    this.setState({
+      castArrowStatus: !this.state.castArrowStatus
+    });
+  };
+
   render() {
     return (
       <div>
@@ -21,40 +40,80 @@ class AlbumModal extends React.Component {
           isOpen={this.props.albumModal}
           toggle={this.props.toggleAlbumModal}
           className={this.props.className}
+          size="lg"
         >
           <ModalHeader toggle={this.props.toggleAlbumModal}>
             {this.props.modalData.cd_name}
           </ModalHeader>
           <ModalBody>
-            <div className="row">
-              <div className="col-md-7">
-                <img
-                  src={this.props.modalData.image_url}
-                  style={{ width: "100%" }}
-                  alt="Album Art"
-                />
-              </div>
-              <div className="col-md-5">
-                <div>
+            <div className="container-fluid">
+              <div className="row">
+                <div className="col-md-7">
+                  <img
+                    src={this.props.modalData.image_url}
+                    style={{ width: "100%" }}
+                    alt="Album Art"
+                  />
+                </div>
+                <div className="col-md-5">
                   <div>
-                    <Button
-                      color="primary"
-                      id="toggler"
-                      style={{ marginBottom: "1rem" }}
-                    >
-                      Toggle
-                    </Button>
-                    <UncontrolledCollapse toggler="#toggler">
-                      <Card>
-                        <CardBody>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Nesciunt magni, voluptas debitis similique porro
-                          a molestias consequuntur earum odio officiis natus,
-                          amet hic, iste sed dignissimos esse fuga! Minus,
-                          alias.
-                        </CardBody>
-                      </Card>
-                    </UncontrolledCollapse>
+                    <div>
+                      <div id="toggler">
+                        <div onClick={this.toggleTracksArrow}>
+                          Tracks
+                          <span style={{ float: "right" }}>
+                            {this.state.tracksArrowStatus ? (
+                              <IoIosArrowUp />
+                            ) : (
+                              <IoIosArrowDown />
+                            )}
+                          </span>
+                        </div>
+                      </div>
+                      <hr />
+                      <React.Fragment>
+                        <UncontrolledCollapse toggler="#toggler">
+                          {/* {this.props.modalData &&
+                              console.log(this.props.modalData)} */}
+                          {this.props.modalData.tracks && (
+                            <ol>
+                              {this.props.modalData.tracks.map(track => (
+                                <li key={track.id}>{track.name}</li>
+                              ))}
+                            </ol>
+                          )}
+                        </UncontrolledCollapse>
+                      </React.Fragment>
+
+                      <div id="toggler2">
+                        <div onClick={this.toggleCastArrow}>
+                          Cast
+                          <span style={{ float: "right" }}>
+                            {this.state.castArrowStatus ? (
+                              <IoIosArrowUp />
+                            ) : (
+                              <IoIosArrowDown />
+                            )}
+                          </span>
+                        </div>
+                      </div>
+
+                      <React.Fragment>
+                        <UncontrolledCollapse toggler="#toggler2">
+                          {/* {this.props.modalData &&
+                              console.log(this.props.modalData)} */}
+                          {this.props.modalData.cast && (
+                            <ol>
+                              {this.props.modalData.cast.map(cast => (
+                                <li key={cast.name}>
+                                  {cast.name} on {cast.role}
+                                </li>
+                              ))}
+                            </ol>
+                          )}
+                        </UncontrolledCollapse>
+                      </React.Fragment>
+                    </div>
                   </div>
                 </div>
               </div>
