@@ -1,8 +1,14 @@
 import React from "react";
-
+import Carousel from "./Carousel.js";
+import Catalog from "./Catalog.js"
 class Homepage extends React.Component {
   render() {
-    return <div>Home</div>;
+    return (
+      <div>
+        <Carousel/>
+        <Catalog/>
+      </div>
+    );
   }
 }
 

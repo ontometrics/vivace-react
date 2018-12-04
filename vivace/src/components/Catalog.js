@@ -28,7 +28,6 @@ class Catalog extends React.Component {
 
     return (
       <div>
-        Catalog
         {console.log(this.state.modalData)}
         <div className="gallery-portfolio">
           <div className="container no-override">
