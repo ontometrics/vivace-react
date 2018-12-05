@@ -103,13 +103,13 @@ class AlbumModal extends React.Component {
                           {/* {this.props.modalData &&
                               console.log(this.props.modalData)} */}
                           {this.props.modalData.cast && (
-                            <ol>
+                            <ul>
                               {this.props.modalData.cast.map(cast => (
                                 <li key={cast.name}>
                                   {cast.name} on {cast.role}
                                 </li>
                               ))}
-                            </ol>
+                            </ul>
                           )}
                         </UncontrolledCollapse>
                       </React.Fragment>
@@ -120,12 +120,12 @@ class AlbumModal extends React.Component {
             </div>
           </ModalBody>
           <ModalFooter>
-            <Button color="primary" onClick={this.props.toggleAlbumModal}>
-              Do Something
-            </Button>{" "}
-            <Button color="secondary" onClick={this.props.toggleAlbumModal}>
-              Cancel
-            </Button>
+            <a href={this.props.modalData.buy_link}>
+              <Button>Buy</Button>
+            </a>
+            <a href={this.props.modalData.itunes}>
+              <Button>iTunes</Button>
+            </a>
           </ModalFooter>
         </Modal>
       </div>
