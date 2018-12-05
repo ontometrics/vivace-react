@@ -11,7 +11,7 @@ class Navbar extends React.Component {
           </button>
 
           <NavLink className="btn green navbar-brand" to="/homepage">
-                  Vivace
+                  <img src="img/VivLogo.png" style={{"height" : "50px"}}/>
           </NavLink>  
 
           <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse">
@@ -27,7 +27,7 @@ class Navbar extends React.Component {
                 </NavLink>  
               </li>
               <li class="nav-item">
-                <NavLink className="btn green nav-link nav-link--rounded" to="/artists">
+                <NavLink className="btn green nav-link" to="/artists">
                   Artists
                 </NavLink>  
               </li>

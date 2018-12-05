@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 class Carousel extends React.Component {
+    data = require("../api/albums.json"); // forward slashes will depend on the file location
     render() {
       return (
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -11,21 +12,21 @@ class Carousel extends React.Component {
             </ol>
             <div class="carousel-inner" role="listbox">
               <div class="carousel-item active">
-                <img class="d-block img-fluid" style={{"height" : "400px","width" : "100%"}} src="img/IMG_2495.jpg" alt="First slide"/>
+                <img class="d-block img-fluid"  src="img/IMG_2495.jpg" alt="First slide"/>
                 <div class="carousel-caption d-none d-md-block">
                   <h2>Put an album Tile in here or something, and new release info</h2>
                   <p>Slide 1 subtitle text</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img class="d-block img-fluid" style={{"height" : "400px","width" : "100%"}} src="img/IMG_2495.jpg" alt="Second slide"/>
+                <img class="d-block img-fluid" src="img/IMG_2495.jpg" alt="Second slide"/>
                 <div class="carousel-caption d-none d-md-block">
                 <h2>Put an album Tile in here or something, and new release info</h2>
                   <p>Slide 2 subtitle text</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img class="d-block img-fluid" style={{"height" : "400px","width" : "100%"}} src="img/IMG_2495.jpg" alt="Third slide"/>
+                <img class="d-block img-fluid"  src="img/IMG_2495.jpg" alt="Third slide"/>
                 <div class="carousel-caption d-none d-md-block">
                 <h2>Put an album Tile in here or something, and new release info</h2>
                   <p>Slide 3 subtitle text</p>
