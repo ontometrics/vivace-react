@@ -5,31 +5,38 @@ class Navbar extends React.Component {
   render() {
     return (
       <div>
-        <nav class="navbar navbar-light navbar-expand-lg" role="navigation">
-          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
-            <span class="navbar-toggler-icon"></span>
+        <nav className="navbar navbar-light navbar-expand-lg" role="navigation">
+          <button
+            className="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#navbar-collapse"
+          >
+            <span className="navbar-toggler-icon" />
           </button>
 
           <NavLink className="btn green navbar-brand" to="/homepage">
-                  <img src="img/VivLogo.png" style={{"height" : "50px"}}/>
-          </NavLink>  
+            <img src="img/VivLogo.png" style={{ height: "50px" }} />
+          </NavLink>
 
-          <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse">
-            <ul class="navbar-nav">
-              <li class="nav-item">
+          <div
+            className="collapse navbar-collapse justify-content-end"
+            id="navbar-collapse"
+          >
+            <ul className="navbar-nav">
+              <li className="nav-item">
                 <NavLink className="btn green nav-link" to="/homepage">
                   Home
-                </NavLink>  
+                </NavLink>
               </li>
-              <li class="nav-item">
+              <li className="nav-item">
                 <NavLink className="btn green nav-link" to="/catalog">
                   Catalog
-                </NavLink>  
+                </NavLink>
               </li>
-              <li class="nav-item">
+              <li className="nav-item">
                 <NavLink className="btn green nav-link" to="/artists">
                   Artists
-                </NavLink>  
+                </NavLink>
               </li>
             </ul>
           </div>

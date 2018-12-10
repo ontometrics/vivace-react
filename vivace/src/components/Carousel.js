@@ -1,49 +1,122 @@
 import React, { Component } from "react";
 
+const data = require("../api/albums.json"); // forward slashes will depend on the file location
 class Carousel extends React.Component {
-    data = require("../api/albums.json"); // forward slashes will depend on the file location
-    render() {
-      return (
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner" role="listbox">
-              <div class="carousel-item active">
-                <img class="d-block img-fluid"  src="img/IMG_2495.jpg" alt="First slide"/>
-                <div class="carousel-caption d-none d-md-block">
-                  <h2>Put an album Tile in here or something, and new release info</h2>
-                  <p>Slide 1 subtitle text</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img class="d-block img-fluid" src="img/IMG_2495.jpg" alt="Second slide"/>
-                <div class="carousel-caption d-none d-md-block">
-                <h2>Put an album Tile in here or something, and new release info</h2>
-                  <p>Slide 2 subtitle text</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img class="d-block img-fluid"  src="img/IMG_2495.jpg" alt="Third slide"/>
-                <div class="carousel-caption d-none d-md-block">
-                <h2>Put an album Tile in here or something, and new release info</h2>
-                  <p>Slide 3 subtitle text</p>
-                </div>
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-      );
+  state = {
+    caro1: 0,
+    caro2: 0
+  };
+
+  componentDidMount() {
+    const data = require("../api/albums.json"); // forward slashes will depend on the file location
+    this.randCaro();
+    console.log(data);
+  }
+  randCaro = () => {
+    if (this.state.caro1 == this.state.caro2) {
+      let rand = Math.floor(Math.random() * (data.length - 2) + 1);
+      this.setState({
+        caro2: rand
+      });
+      if (this.state.caro1 == rand) {
+        this.randCaro();
+      }
     }
+  };
+  render() {
+    console.log(this.state.caro1, "caro1");
+    console.log(this.state.caro2, "caro2");
+    console.log(data);
+    const data = require("../api/albums.json");
+    return (
+      <div
+        id="carouselExampleIndicators"
+        className="carousel slide"
+        data-ride="carousel"
+      >
+        <ol className="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            className="active"
+          />
+          <li data-target="#carouselExampleIndicators" data-slide-to="1" />
+          <li data-target="#carouselExampleIndicators" data-slide-to="2" />
+        </ol>
+        <div className="carousel-inner" role="listbox">
+          <div className="carousel-item active">
+            <img
+              className="d-block img-fluid"
+              src={data[data.length - 1].image_url}
+              alt="First slide"
+              style={{
+                position: "relative",
+                marginLeft: "auto",
+                marginRight: "auto",
+                height: "45vh"
+              }}
+            />
+            <div className="carousel-caption d-none d-md-block">
+              <h2>{data[data.length - 1].cd_name}</h2>
+              <p>{data[data.length - 1].description}</p>
+            </div>
+          </div>
+          <div className="carousel-item">
+            <img
+              className="d-block img-fluid"
+              src={data[this.state.caro1].image_url}
+              alt="First slide"
+              style={{
+                position: "relative",
+                marginLeft: "auto",
+                marginRight: "auto",
+                height: "45vh"
+              }}
+            />
+            <div className="carousel-caption d-none d-md-block">
+              <h2>{data[this.state.caro1].cd_name}</h2>
+              <p>{data[this.state.caro1].description}</p>
+            </div>
+          </div>
+          <div className="carousel-item">
+            <img
+              className="d-block img-fluid"
+              src={data[this.state.caro2].image_url}
+              alt="First slide"
+              style={{
+                position: "relative",
+                marginLeft: "auto",
+                marginRight: "auto",
+                height: "45vh"
+              }}
+            />
+            <div className="carousel-caption d-none d-md-block">
+              <h2>{data[this.state.caro2].cd_name}</h2>
+              <p>{data[this.state.caro2].description}</p>
+            </div>
+          </div>
+        </div>
+        <a
+          className="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span className="carousel-control-prev-icon" aria-hidden="true" />
+          <span className="sr-only">Previous</span>
+        </a>
+        <a
+          className="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span className="carousel-control-next-icon" aria-hidden="true" />
+          <span className="sr-only">Next</span>
+        </a>
+      </div>
+    );
+  }
 }
 
 export default Carousel;
