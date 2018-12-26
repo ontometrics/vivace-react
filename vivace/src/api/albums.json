@@ -659,11 +659,11 @@
         ],
         "tracks": [
             {
-                "id": "",
+                "id": 0,
                 "name": "Disc One"
             },
             {
-                "id": "",
+                "id": 0,
                 "name": "Lute-Cembalo Suit in C Minor"
             },
             {
@@ -683,7 +683,7 @@
                 "name": "Gigue - Double"
             },
             {
-                "id": "",
+                "id": 0,
                 "name": "Partita No. 6 in E Minor"
             },
             {
@@ -715,13 +715,142 @@
                 "name": "Gigue"
             },
             {
-                "id": "",
+                "id": 0,
                 "name": "Disc Two"
             },
             {
-                "id": "",
+                "id": 0,
                 "name": "Goldberg Vatiations"
+            },
+            {
+                "id": 1,
+                "name": "Aria"
+            },
+            {
+                "id": 2,
+                "name": "Variatio 1"
+            },
+            {
+                "id": 3,
+                "name": "Variatio 2"
+            },
+            {
+                "id": 4,
+                "name": "Variato 3 Canone all' Unisuono"
+            },
+            {
+                "id": null,
+                "name": ""
+            },
+            {
+                "id": 0,
+                "name": ""
+            },
+            {
+                "id": 0,
+                "name": ""
+            },
+            {
+                "id": 0,
+                "name": ""
+            },
+            {
+                "id": 0,
+                "name": ""
+            },
+            {
+                "id": 0,
+                "name": ""
+            },
+            {
+                "id": 0,
+                "name": ""
+            },
+            {
+                "id": 0,
+                "name": ""
+            },
+            {
+                "id": 0,
+                "name": ""
+            },
+            {
+                "id": 0,
+                "name": ""
+            },
+            {
+                "id": 0,
+                "name": ""
+            },
+            {
+                "id": 0,
+                "name": ""
+            },
+            {
+                "id": 0,
+                "name": ""
+            },
+            {
+                "id": 0,
+                "name": ""
+            },
+            {
+                "id": 0,
+                "name": ""
+            },
+            {
+                "id": 0,
+                "name": ""
+            },
+            {
+                "id": 0,
+                "name": ""
+            },
+            {
+                "id": 0,
+                "name": ""
+            },
+            {
+                "id": 0,
+                "name": ""
+            },
+            {
+                "id": 0,
+                "name": ""
+            },
+            {
+                "id": 0,
+                "name": ""
+            },
+            {
+                "id": 0,
+                "name": ""
+            },
+            {
+                "id": 0,
+                "name": ""
+            },
+            {
+                "id": 0,
+                "name": ""
+            },
+            {
+                "id": 0,
+                "name": ""
+            },
+            {
+                "id": 0,
+                "name": ""
+            },
+            {
+                "id": 0,
+                "name": ""
+            },
+            {
+                "id": 0,
+                "name": ""
             }
+
         ],
         "reviews": [
             {
