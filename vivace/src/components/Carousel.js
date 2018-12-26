@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import CatalogTiles from "./CatalogTiles";
 
 const data = require("../api/albums.json"); // forward slashes will depend on the file location
 class Carousel extends React.Component {
@@ -30,6 +31,12 @@ class Carousel extends React.Component {
     const data = require("../api/albums.json");
     return (
       <div
+      style={{
+        backgroundImage: "url(" + "img/IMG_2495.jpg" + ")",
+        // backgroundPosition: "center",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat"
+      }}
         id="carouselExampleIndicators"
         className="carousel slide"
         data-ride="carousel"
@@ -45,6 +52,11 @@ class Carousel extends React.Component {
         </ol>
         <div className="carousel-inner" role="listbox">
           <div className="carousel-item active">
+          <CatalogTiles
+                    data={data}
+                    setModalData={data => this.setModalData(data)}
+                    toggleAlbumModal={this.toggleAlbumModal}
+                  />
             <img
               className="d-block img-fluid"
               src={data[data.length - 1].image_url}
