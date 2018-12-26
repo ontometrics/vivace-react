@@ -5,10 +5,7 @@ import {
   ModalHeader,
   ModalBody,
   ModalFooter,
-  UncontrolledCollapse,
-  Table,
-  CardBody,
-  Card
+  UncontrolledCollapse
 } from "reactstrap";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
