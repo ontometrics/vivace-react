@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import CatalogTiles from "./CatalogTiles";
 
 const data = require("../api/albums.json"); // forward slashes will depend on the file location
 class Carousel extends React.Component {
@@ -51,29 +50,25 @@ class Carousel extends React.Component {
           <li data-target="#carouselExampleIndicators" data-slide-to="2" />
         </ol>
         <div className="carousel-inner" role="listbox">
-          <div className="carousel-item active">
-          <CatalogTiles
-                    data={data}
-                    setModalData={data => this.setModalData(data)}
-                    toggleAlbumModal={this.toggleAlbumModal}
-                  />
-            <img
-              className="d-block img-fluid"
-              src={data[data.length - 1].image_url}
-              alt="First slide"
-              style={{
-                position: "relative",
-                marginLeft: "auto",
-                marginRight: "auto",
-                height: "45vh"
-              }}
-            />
+          <div className="carousel-item active" style={{height: "45vh"}}>
             <div className="carousel-caption d-none d-md-block">
+              <img
+                className="d-block img-fluid"
+                src={data[data.length - 1].image_url}
+                alt="First slide"
+                style={{
+                  position: "relative",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                  height: "35vh"
+                }}
+              />
               <h2>{data[data.length - 1].cd_name}</h2>
               <p>{data[data.length - 1].description}</p>
             </div>
           </div>
-          <div className="carousel-item">
+          <div className="carousel-item" style={{height: "45vh"}}>
+            <div className="carousel-caption d-none d-md-block">
             <img
               className="d-block img-fluid"
               src={data[this.state.caro1].image_url}
@@ -82,27 +77,27 @@ class Carousel extends React.Component {
                 position: "relative",
                 marginLeft: "auto",
                 marginRight: "auto",
-                height: "45vh"
+                height: "35vh"
               }}
             />
-            <div className="carousel-caption d-none d-md-block">
               <h2>{data[this.state.caro1].cd_name}</h2>
               <p>{data[this.state.caro1].description}</p>
             </div>
           </div>
-          <div className="carousel-item">
-            <img
-              className="d-block img-fluid"
-              src={data[this.state.caro2].image_url}
-              alt="First slide"
-              style={{
-                position: "relative",
-                marginLeft: "auto",
-                marginRight: "auto",
-                height: "45vh"
-              }}
-            />
+          <div className="carousel-item" style={{height: "45vh"}}>
+           
             <div className="carousel-caption d-none d-md-block">
+              <img
+                className="d-block img-fluid"
+                src={data[this.state.caro2].image_url}
+                alt="First slide"
+                style={{
+                  position: "relative",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                  height: "35vh"
+                }}
+              />
               <h2>{data[this.state.caro2].cd_name}</h2>
               <p>{data[this.state.caro2].description}</p>
             </div>
