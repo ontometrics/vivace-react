@@ -78,7 +78,9 @@ class AlbumModal extends React.Component {
                           {this.props.modalData.tracks && (
                             <ol>
                               {this.props.modalData.tracks.map(track => (
-                                <li style={{listStyleType : "none"}}>{track.id} - {track.name}</li>
+                                <li style={{ listStyleType: "none" }}>
+                                  {track.id} {track.id && " - "} {track.name}
+                                </li>
                               ))}
                             </ol>
                           )}
