@@ -15,12 +15,19 @@ import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 class AlbumModal extends React.Component {
   state = {
     castArrowStatus: false,
-    tracksArrowStatus: false
+    tracksArrowStatus: false,
+    descArrowStatus: false
   };
 
   toggleTracksArrow = () => {
     this.setState({
       tracksArrowStatus: !this.state.tracksArrowStatus
+    });
+  };
+
+  descTracksArrow = () => {
+    this.setState({
+      descArrowStatus: !this.state.descArrowStatus
     });
   };
 
@@ -33,9 +40,6 @@ class AlbumModal extends React.Component {
   render() {
     return (
       <div>
-        <Button color="danger" onClick={this.props.toggleAlbumModal}>
-          {this.props.buttonLabel}
-        </Button>
         <Modal
           isOpen={this.props.albumModal}
           toggle={this.props.toggleAlbumModal}
@@ -78,7 +82,9 @@ class AlbumModal extends React.Component {
                           {this.props.modalData.tracks && (
                             <ol>
                               {this.props.modalData.tracks.map(track => (
-                                <li style={{listStyleType : "none"}}>{track.id} - {track.name}</li>
+                                <li style={{ listStyleType: "none" }}>
+                                  {track.id} {track.id && " - "} {track.name}
+                                </li>
                               ))}
                             </ol>
                           )}
@@ -111,6 +117,25 @@ class AlbumModal extends React.Component {
                               ))}
                             </ul>
                           )}
+                        </UncontrolledCollapse>
+                      </React.Fragment>
+                      <hr />
+                      <div id="toggler3">
+                        <div onClick={this.toggleDescArrow}>
+                          Description
+                          <span style={{ float: "right" }}>
+                            {this.state.descArrowStatus ? (
+                              <IoIosArrowUp />
+                            ) : (
+                              <IoIosArrowDown />
+                            )}
+                          </span>
+                        </div>
+                      </div>
+
+                      <React.Fragment>
+                        <UncontrolledCollapse toggler="#toggler3">
+                          {this.props.modalData.description}
                         </UncontrolledCollapse>
                       </React.Fragment>
                     </div>

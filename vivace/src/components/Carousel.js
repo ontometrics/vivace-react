@@ -30,12 +30,12 @@ class Carousel extends React.Component {
     const data = require("../api/albums.json");
     return (
       <div
-      style={{
-        backgroundImage: "url(" + "img/IMG_2495.jpg" + ")",
-        // backgroundPosition: "center",
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat"
-      }}
+        style={{
+          backgroundImage: "url(" + "img/IMG_2495.jpg" + ")",
+          // backgroundPosition: "center",
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat"
+        }}
         id="carouselExampleIndicators"
         className="carousel slide"
         data-ride="carousel"
@@ -50,7 +50,7 @@ class Carousel extends React.Component {
           <li data-target="#carouselExampleIndicators" data-slide-to="2" />
         </ol>
         <div className="carousel-inner" role="listbox">
-          <div className="carousel-item active" style={{height: "45vh"}}>
+          <div className="carousel-item active" style={{ height: "50vh" }}>
             <div className="carousel-caption d-none d-md-block">
               <img
                 className="d-block img-fluid"
@@ -60,32 +60,31 @@ class Carousel extends React.Component {
                   position: "relative",
                   marginLeft: "auto",
                   marginRight: "auto",
-                  height: "35vh"
+                  height: "30vh"
                 }}
               />
               <h2>{data[data.length - 1].cd_name}</h2>
               <p>{data[data.length - 1].description}</p>
             </div>
           </div>
-          <div className="carousel-item" style={{height: "45vh"}}>
+          <div className="carousel-item" style={{ height: "50vh" }}>
             <div className="carousel-caption d-none d-md-block">
-            <img
-              className="d-block img-fluid"
-              src={data[this.state.caro1].image_url}
-              alt="First slide"
-              style={{
-                position: "relative",
-                marginLeft: "auto",
-                marginRight: "auto",
-                height: "35vh"
-              }}
-            />
+              <img
+                className="d-block img-fluid"
+                src={data[this.state.caro1].image_url}
+                alt="First slide"
+                style={{
+                  position: "relative",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                  height: "35vh"
+                }}
+              />
               <h2>{data[this.state.caro1].cd_name}</h2>
               <p>{data[this.state.caro1].description}</p>
             </div>
           </div>
-          <div className="carousel-item" style={{height: "45vh"}}>
-           
+          <div className="carousel-item" style={{ height: "50vh" }}>
             <div className="carousel-caption d-none d-md-block">
               <img
                 className="d-block img-fluid"
