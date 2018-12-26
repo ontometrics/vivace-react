@@ -642,6 +642,94 @@
                 "text": ""
             }
         ]
+    },
+    {
+        "id": 9,
+        "cd_name": "Peter Serkin - JS Bach",
+        "image_url": "img/albums/8808Cover.gif",
+        "itunes": "https://itunes.apple.com/us/album/arthur-gleghorn-art-gleghorn/id815792227",
+        "description": "Peter Serkin plays bach",
+        "buy_link": "http://ww9.aitsafe.com/cf/add.cfm?userid=B195497&product=Peter+Serkin+-+JS+Bach&price=19.99",
+        "viv_no": "VIV 8808",
+        "cast": [
+            {
+                "name": "Peter Serkin",
+                "role": "Piano"
+            }
+        ],
+        "tracks": [
+            {
+                "id": "",
+                "name": "Disc One"
+            },
+            {
+                "id": "",
+                "name": "Lute-Cembalo Suit in C Minor"
+            },
+            {
+                "id": 1,
+                "name": "Prelude"
+            },
+            {
+                "id": 2,
+                "name": "Fugue"
+            },
+            {
+                "id": 3,
+                "name": "Sarabande"
+            },
+            {
+                "id": 4,
+                "name": "Gigue - Double"
+            },
+            {
+                "id": "",
+                "name": "Partita No. 6 in E Minor"
+            },
+            {
+                "id": 5,
+                "name": "Toccata"
+            },
+            {
+                "id": 6,
+                "name": "Allemande"
+            },
+            {
+                "id": 7,
+                "name": "Correntea"
+            },
+            {
+                "id": 8,
+                "name": "Air"
+            },
+            {
+                "id": 9,
+                "name": "Sarabande"
+            },
+            {
+                "id": 10,
+                "name": "Tempo di gavotta"
+            },
+            {
+                "id": 11,
+                "name": "Gigue"
+            },
+            {
+                "id": "",
+                "name": "Disc Two"
+            },
+            {
+                "id": "",
+                "name": "Goldberg Vatiations"
+            }
+        ],
+        "reviews": [
+            {
+                "id": 1,
+                "by": "",
+                "text": ""
+            }
+        ]
     }
     
 ]    

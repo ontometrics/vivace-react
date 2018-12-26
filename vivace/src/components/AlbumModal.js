@@ -106,7 +106,7 @@ class AlbumModal extends React.Component {
                             <ol>
                               {this.props.modalData.cast.map(cast => (
                                 <li key={cast.name}>
-                                  {cast.name} on {cast.role}
+                                  {cast.name} - {cast.role}
                                 </li>
                               ))}
                             </ol>
