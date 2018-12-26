@@ -15,7 +15,11 @@ class Navbar extends React.Component {
           </button>
 
           <NavLink className="btn green navbar-brand" to="/homepage">
-            <img src="img/VivLogo.png" style={{ height: "50px" }} />
+            <img
+              src="img/VivLogo.png"
+              style={{ height: "50px" }}
+              alt="VivLogo goes here"
+            />
           </NavLink>
 
           <div

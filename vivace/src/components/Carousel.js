@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 
 const data = require("../api/albums.json"); // forward slashes will depend on the file location
 class Carousel extends React.Component {
@@ -13,25 +13,22 @@ class Carousel extends React.Component {
     console.log(data);
   }
   randCaro = () => {
-    if (this.state.caro1 == this.state.caro2) {
+    if (this.state.caro1 === this.state.caro2) {
       let rand = Math.floor(Math.random() * (data.length - 2) + 1);
       this.setState({
         caro2: rand
       });
-      if (this.state.caro1 == rand) {
+      if (this.state.caro1 === rand) {
         this.randCaro();
       }
     }
   };
   render() {
-    console.log(this.state.caro1, "caro1");
-    console.log(this.state.caro2, "caro2");
-    console.log(data);
     const data = require("../api/albums.json");
     return (
       <div
         style={{
-          backgroundImage: "url(" + "img/IMG_2495.jpg" + ")",
+          backgroundImage: "url(img/IMG_2495.jpg)",
           // backgroundPosition: "center",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat"
