@@ -659,11 +659,11 @@
         ],
         "tracks": [
             {
-                "id": 0,
+                "id": null,
                 "name": "Disc One"
             },
             {
-                "id": 0,
+                "id": null,
                 "name": "Lute-Cembalo Suit in C Minor"
             },
             {
@@ -683,7 +683,7 @@
                 "name": "Gigue - Double"
             },
             {
-                "id": 0,
+                "id": null,
                 "name": "Partita No. 6 in E Minor"
             },
             {
@@ -715,11 +715,11 @@
                 "name": "Gigue"
             },
             {
-                "id": 0,
+                "id": null,
                 "name": "Disc Two"
             },
             {
-                "id": 0,
+                "id": null,
                 "name": "Goldberg Vatiations"
             },
             {
@@ -739,116 +739,116 @@
                 "name": "Variato 3 Canone all' Unisuono"
             },
             {
-                "id": null,
-                "name": ""
+                "id": 5,
+                "name": "Variatio 4"
             },
             {
-                "id": 0,
-                "name": ""
+                "id": 6,
+                "name": "Variatio 5"
             },
             {
-                "id": 0,
-                "name": ""
+                "id": 7,
+                "name": "Variatio 6 Canone alla Seconda"
             },
             {
-                "id": 0,
-                "name": ""
+                "id": 8,
+                "name": "Variatio 7"
             },
             {
-                "id": 0,
-                "name": ""
+                "id": 9,
+                "name": "Variatio 8"
             },
             {
-                "id": 0,
-                "name": ""
+                "id": 10,
+                "name": "Variatio 9 alla Terza."
             },
             {
-                "id": 0,
-                "name": ""
+                "id": 11,
+                "name": "Variatio 10 Fuegetta"
             },
             {
-                "id": 0,
-                "name": ""
+                "id": 12,
+                "name": "Variatio 11"
             },
             {
-                "id": 0,
-                "name": ""
+                "id": 13,
+                "name": "Variatio 12 Canone alla Quarta"
             },
             {
-                "id": 0,
-                "name": ""
+                "id": 14,
+                "name": "Variatio 13"
             },
             {
-                "id": 0,
-                "name": ""
+                "id": 15,
+                "name": " Variatio 14"
             },
             {
-                "id": 0,
-                "name": ""
+                "id": 16,
+                "name": "Variatio 15 Canone alla Quinta"
             },
             {
-                "id": 0,
-                "name": ""
+                "id": 17,
+                "name": "Variatio 16 Ouverture"
             },
             {
-                "id": 0,
-                "name": ""
+                "id": 18,
+                "name": "Variatio 17"
             },
             {
-                "id": 0,
-                "name": ""
+                "id": 19,
+                "name": "Variatio 18 Canone alla Sexta"
             },
             {
-                "id": 0,
-                "name": ""
+                "id": 20,
+                "name": "Variatio 19"
             },
             {
-                "id": 0,
-                "name": ""
+                "id": 21,
+                "name": "Variation 20"
             },
             {
-                "id": 0,
-                "name": ""
+                "id": 22,
+                "name": "Variatio 21 Canone alla Settinma"
             },
             {
-                "id": 0,
-                "name": ""
+                "id": 23,
+                "name": "Variatio 22"
             },
             {
-                "id": 0,
-                "name": ""
+                "id": 24,
+                "name": "Variatio 23"
             },
             {
-                "id": 0,
-                "name": ""
+                "id": 25,
+                "name": "Variatio 24 Canone all' Ottava"
             },
             {
-                "id": 0,
-                "name": ""
+                "id": 26,
+                "name": "Variatio 25"
             },
             {
-                "id": 0,
-                "name": ""
+                "id": 27,
+                "name": "Variatio 26"
             },
             {
-                "id": 0,
-                "name": ""
+                "id": 28,
+                "name": "Variatio 27 Canone alla Nona"
             },
             {
-                "id": 0,
-                "name": ""
+                "id": 29,
+                "name": "Variatio 28"
             },
             {
-                "id": 0,
-                "name": ""
+                "id": 30,
+                "name": "Variatio 29"
             },
             {
-                "id": 0,
-                "name": ""
+                "id": 31,
+                "name": "Variatio 30 Quodlibet"
             },
             {
-                "id": 0,
-                "name": ""
+                "id": 32,
+                "name": "Aria"
             }
 
         ],
