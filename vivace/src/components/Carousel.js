@@ -50,7 +50,7 @@ class Carousel extends React.Component {
           <li data-target="#carouselExampleIndicators" data-slide-to="2" />
         </ol>
         <div className="carousel-inner" role="listbox">
-          <div className="carousel-item active" style={{ height: "45vh" }}>
+          <div className="carousel-item active" style={{ height: "50vh" }}>
             <div className="carousel-caption d-none d-md-block">
               <img
                 className="d-block img-fluid"
@@ -60,14 +60,14 @@ class Carousel extends React.Component {
                   position: "relative",
                   marginLeft: "auto",
                   marginRight: "auto",
-                  height: "10"
+                  height: "30vh"
                 }}
               />
               <h2>{data[data.length - 1].cd_name}</h2>
               <p>{data[data.length - 1].description}</p>
             </div>
           </div>
-          <div className="carousel-item" style={{ height: "45vh" }}>
+          <div className="carousel-item" style={{ height: "50vh" }}>
             <div className="carousel-caption d-none d-md-block">
               <img
                 className="d-block img-fluid"
@@ -84,7 +84,7 @@ class Carousel extends React.Component {
               <p>{data[this.state.caro1].description}</p>
             </div>
           </div>
-          <div className="carousel-item" style={{ height: "45vh" }}>
+          <div className="carousel-item" style={{ height: "50vh" }}>
             <div className="carousel-caption d-none d-md-block">
               <img
                 className="d-block img-fluid"
