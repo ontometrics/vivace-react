@@ -28,7 +28,7 @@ class Carousel extends React.Component {
     return (
       <div
         style={{
-          backgroundImage: "url(img/IMG_2495.jpg)",
+          backgroundImage: "url(img/vivacebg.jpg)",
           // backgroundPosition: "center",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat"
