@@ -15,6 +15,6 @@ npm start
 A bootstrap template is in the react-3.0 folder.
 
 # todo:
-- get audio samples working
+- get audio samples working (Files are on S3 in the vivace-audio bucket: https://s3.console.aws.amazon.com/s3/buckets/vivace-audio/?region=us-east-1&tab=overview)
 - setup an artists page
 - make an admin panel for adding albums
