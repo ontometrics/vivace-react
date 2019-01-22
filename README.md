@@ -1,5 +1,7 @@
 # vivace-react
-this is a project for the new vivace site.
+This is a project for the new vivace site.
+
+The tickets are on youtrack under the K2B2 project, on the vivace-1.0 sprint
 
 The react project is in the vivace folder. Follow the readme in there for build instructions.
 
@@ -11,3 +13,8 @@ npm start
 ```
 
 A bootstrap template is in the react-3.0 folder.
+
+# todo:
+- get audio samples working
+- setup an artists page
+- make an admin panel for adding albums
